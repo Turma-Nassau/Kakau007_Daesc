@@ -9,5 +9,5 @@
 * CSS
 * JavaScript
 * Node.js
-*MySql
+* MySql
 * Figma
