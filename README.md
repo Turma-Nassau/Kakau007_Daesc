@@ -18,8 +18,10 @@
  <tr> 
   <th> Front-End </th>
  </tr>
-* Html
-* Css
+<tr>
+ <td>Html</td>
+ <td>Css</td>
+ </tr>
  </table>
 
 # Storyboard
