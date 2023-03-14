@@ -26,14 +26,14 @@
  <table> <td><a href = "https://github.com/Kakau007" > kakau007 </a></td></table>
  
  # Estrutura de Dados
- <th>
- * Criar um novo usuário
+ 
+ * Criar um novo usuário <br />
       Novo_Usuario = {
      Nome = String,
      E-mail = String,
      Senha = String
   }
- </th>
+ 
  * Fazer Login 
       Login = {
     E-mail = String,
