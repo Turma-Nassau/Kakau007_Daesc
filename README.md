@@ -6,7 +6,7 @@
 
 # Tecnologias Utilizadas
 <table>
-  <tr>
+ 
     <th> Back-End </th>
   <td> Node.JS </td>
   <td> MySql </td>
@@ -16,7 +16,7 @@
  <td>Html</td>
  <td>Css</td>
  <td>Figma</td>
-  </tr> 
+
 </table>
 
 # Storyboard
