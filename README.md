@@ -15,4 +15,4 @@
 * Figma 
 
 # Colaboradores
- <a href = "https://github.com/Kakau007" > kakau007 </a> 
+ * <a href = "https://github.com/Kakau007" > kakau007 </a> 
