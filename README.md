@@ -6,14 +6,14 @@
 
 # Tecnologias Utilizadas
 <table>
- <tr>
+
   <th> Back-End </th>
- </tr>
- <tr>
+
+
   <td> Node.JS </td>
   <td> MySql </td>
   <td> javaScript </td>
- </tr>
+
  
 
   <th> Front-End </th>
