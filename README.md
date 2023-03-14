@@ -23,4 +23,34 @@
 <table> <td><a href = "https://www.figma.com/file/Aeboe8zfAXq3nheiBtrRKn/StoryBoard%2F%2FKau%C3%A3?node-id=0%3A1" > Figma </a> </td> </table>
 
 # Colaboradores
- <table> <td><a href = "https://github.com/Kakau007" > kakau007 </a></td> </table>
+ <table> <td><a href = "https://github.com/Kakau007" > kakau007 </a></td></table>
+ 
+ # Estrutura de Dados
+ 
+ * Criar um novo usuário
+      Novo_Usuario = {
+     Nome = String,
+     E-mail = String,
+     Senha = String
+  }
+ 
+ * Fazer Login 
+      Login = {
+    E-mail = String,
+    Senha = String
+  }
+  
+  * Formulário para solicitar uma equipe no seu bairro  
+      Tempo_Sem_Agua = {
+    Tempo = Date,
+    Nome_Rua = String,
+    Nome_Bairro = String,
+    Telefone = int
+  }
+  
+ * Simulação de negociação 
+      Simulador = {
+   Quantidade_Boletos = Int,
+   Valor_Entrada = int,
+   Total_Parcelas= int
+  };
