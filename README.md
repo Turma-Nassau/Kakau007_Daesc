@@ -14,7 +14,7 @@
   <td> MySql </td>
   <td> javaScript </td>
 
- <br>
+ \n
 
   <th> Front-End </th>
 
