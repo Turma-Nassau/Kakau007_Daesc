@@ -20,7 +20,7 @@
 </table>
 
 # StoryBoard
-* <table> <td><a href = "https://www.figma.com/file/Aeboe8zfAXq3nheiBtrRKn/StoryBoard%2F%2FKau%C3%A3?node-id=0%3A1" > Figma </a> </td> </table>
+<table> <td><a href = "https://www.figma.com/file/Aeboe8zfAXq3nheiBtrRKn/StoryBoard%2F%2FKau%C3%A3?node-id=0%3A1" > Figma </a> </td> </table>
 
 # Colaboradores
  <table> <td><a href = "https://github.com/Kakau007" > kakau007 </a></td> </table>
