@@ -27,30 +27,24 @@
  
  # Estrutura de Dados
  
- * Criar um novo usuário <br />
-      Novo_Usuario = {<br />
-     Nome = String,<br />
-     E-mail = String,<br />
-     Senha = String<br />
-  }<br />
- 
- * Fazer Login 
-      Login = {
-    E-mail = String,
-    Senha = String
-  }
+ * Possibilidade de fazer login e criar um novo usuário <br />
+      Novo_Usuario = {<br/>
+     Nome = String,<br/>
+     E-mail = String,<br/>
+     Senha = String<br/>
+  }<br/>
   
-  * Formulário para solicitar uma equipe no seu bairro  
-      Tempo_Sem_Agua = {
-    Tempo = Date,
-    Nome_Rua = String,
-    Nome_Bairro = String,
-    Telefone = int
-  }
+  * Formulário para solicitar uma equipe no seu bairro <br/> 
+      Tempo_Sem_Agua = { <br/>
+    Tempo = Date,<br/>
+    Nome_Rua = String,<br/>
+    Nome_Bairro = String,<br/>
+    Telefone = int<br/>
+  }<br/>
   
- * Simulação de negociação 
-      Simulador = {
-   Quantidade_Boletos = Int,
-   Valor_Entrada = int,
-   Total_Parcelas= int
+ * Simulação de negociação <br/>
+      Simulador = {<br/>
+   Quantidade_Boletos = Int,<br/>
+   Valor_Entrada = int,<br/>
+   Total_Parcelas= int<br/>
   };
