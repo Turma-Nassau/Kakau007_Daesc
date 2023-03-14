@@ -7,7 +7,7 @@
 # Tecnologias Utilizadas
 <table>
  
-    <th> Back-End </th>
+   <th> Back-End </th>
   <td> Node.JS </td>
   <td> MySql </td>
   <td> javaScript </td>
