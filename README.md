@@ -12,6 +12,8 @@
  </tr>
  <tr>
   <td> Node.JS </td>
+  <td> MySql </td>
+  <td> javaScript </td>
  </tr>
 * Node.js
 * MySql
