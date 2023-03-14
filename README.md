@@ -9,12 +9,12 @@
 
   <th> Back-End </th>
 
-<tr>
+
   <td> Node.JS </td>
   <td> MySql </td>
   <td> javaScript </td>
-  </tr>
- 
+
+ <br>
 
   <th> Front-End </th>
 
