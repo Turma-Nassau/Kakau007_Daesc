@@ -27,14 +27,14 @@
  
  # Estrutura de Dados
  
- * Possibilidade de fazer login e criar um novo usuário <br />
+ * Possibilidade de fazer login e criar um novo usuário <br/> <br/>
       Novo_Usuario = {<br/>
      Nome = String,<br/>
      E-mail = String,<br/>
      Senha = String<br/>
   }<br/>
   
-  * Formulário para solicitar uma equipe no seu bairro <br/> 
+  * Formulário para solicitar uma equipe no seu bairro <br/>  <br/>
       Tempo_Sem_Agua = { <br/>
     Tempo = Date,<br/>
     Nome_Rua = String,<br/>
@@ -42,7 +42,7 @@
     Telefone = int<br/>
   }<br/>
   
- * Simulação de negociação <br/>
+ * Simulação de negociação <br/> <br/>
       Simulador = {<br/>
    Quantidade_Boletos = Int,<br/>
    Valor_Entrada = int,<br/>
