@@ -9,21 +9,20 @@
  <tr>
   <th> Back-End </th>
  </tr>
- * teste
  <tr>
   <td> Node.JS </td>
   <td> MySql </td>
   <td> javaScript </td>
  </tr>
  
- <tr> 
+
   <th> Front-End </th>
- </tr>
-<tr>
+
+
  <td>Html</td>
  <td>Css</td>
  <td>Figma</td>
- </tr>
+
  </table>
 
 # Storyboard
