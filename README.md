@@ -6,16 +6,16 @@
 
 # Tecnologias Utilizadas
 
- 
+ <table>
    <th> Back-End </th>
   <td> Node.JS </td>
   <td> MySql </td>
   <td> javaScript </td>
-<br/>
+
   <th> Front-End </th>
  <td>Html</td>
  <td>Css</td>
- 
+</table> 
 
 
 # StoryBoard
@@ -29,6 +29,7 @@
  * Possibilidade de fazer login e criar um novo usuário <br/> <br/>
       Novo_Usuario = {<br/>
      Nome = String,<br/>
+     Sobrenome = String, <br/>
      E-mail = String,<br/>
      Senha = String<br/>
   }<br/>
