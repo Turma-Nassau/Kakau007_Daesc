@@ -15,11 +15,11 @@
   <th> Front-End </th>
  <td>Html</td>
  <td>Css</td>
- <td>Figma</td>
+ 
 
 </table>
 
-# Storyboard
+# StoryBoard
 * <a href = "https://www.figma.com/file/Aeboe8zfAXq3nheiBtrRKn/StoryBoard%2F%2FKau%C3%A3?node-id=0%3A1" > Figma </a>
 
 # Colaboradores
