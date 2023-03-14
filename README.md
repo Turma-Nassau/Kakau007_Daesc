@@ -11,7 +11,7 @@
   <td> Node.JS </td>
   <td> MySql </td>
   <td> javaScript </td>
-
+<br/>
   <th> Front-End </th>
  <td>Html</td>
  <td>Css</td>
@@ -28,11 +28,11 @@
  # Estrutura de Dados
  
  * Criar um novo usuário <br />
-      Novo_Usuario = {
-     Nome = String,
-     E-mail = String,
-     Senha = String
-  }
+      Novo_Usuario = {<br />
+     Nome = String,<br />
+     E-mail = String,<br />
+     Senha = String<br />
+  }<br />
  
  * Fazer Login 
       Login = {
