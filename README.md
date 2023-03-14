@@ -21,6 +21,7 @@
 <tr>
  <td>Html</td>
  <td>Css</td>
+ <td>Figma</td>
  </tr>
  </table>
 
