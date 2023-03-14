@@ -6,24 +6,18 @@
 
 # Tecnologias Utilizadas
 <table>
-
-  <th> Back-End </th>
-
-
+  <tr>
+    <th> Back-End </th>
   <td> Node.JS </td>
   <td> MySql </td>
   <td> javaScript </td>
 
- \n
-
   <th> Front-End </th>
-
-
  <td>Html</td>
  <td>Css</td>
  <td>Figma</td>
-
- </table>
+  </tr> 
+</table>
 
 # Storyboard
 * Figma 
