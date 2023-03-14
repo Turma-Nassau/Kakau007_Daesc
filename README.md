@@ -12,7 +12,7 @@
 * Css
 
 # Storyboard
-* Figma In Progress
+* Figma 
 
 # Colaboradores
-@ kakau007
+ <a href = "https://github.com/Kakau007" > kakau007 </a> 
