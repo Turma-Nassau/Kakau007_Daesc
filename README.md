@@ -8,16 +8,16 @@
 <table>
  <tr>
   <th> Back-End </th>
-  <th > Front-End </th>
  </tr>
  <tr>
   <td> Node.JS </td>
   <td> MySql </td>
   <td> javaScript </td>
  </tr>
-* Node.js
-* MySql
-* JavaScript
+ 
+ <tr> 
+  <th> Front-End </th>
+ </tr>
 * Html
 * Css
  </table>
