@@ -28,20 +28,20 @@
  
  * Possibilidade de fazer login e criar um novo usuário <br/> <br/>
  
-     const Usuario = sequelize.define('usuarios',{ 
-    nome: {
-        type: Sequelize.STRING(30)
-    },
-    sobrenome: {
-        type: Sequelize.STRING(30)
-    },
-    idade:{
-        type: Sequelize.INTEGER(2)
-    },
-    email: {
-        type: Sequelize.STRING(50)
-    },
-    senha: {
-       type: Sequelize.STRING(30)
-    }
+     const Usuario = sequelize.define('usuarios',{ <br/>
+    nome: { <br/>
+        type: Sequelize.STRING(30) <br/>
+    },<br/>
+    sobrenome: {<br/>
+        type: Sequelize.STRING(30)<br/>
+    },<br/>
+    idade:{<br/>
+        type: Sequelize.INTEGER(2)<br/>
+    },<br/>
+    email: {<br/>
+        type: Sequelize.STRING(50)<br/>
+    },<br/>
+    senha: {<br/>
+       type: Sequelize.STRING(30)<br/>
+    }<br/>
 });
