@@ -35,18 +35,18 @@
  * Possibilidade de fazer login e criar um novo usuário 
  ~~~~MySql
      const Usuario = sequelize.define('usuarios',{ 
-    nome: { <br/>
+    nome: { 
         type: Sequelize.STRING(30) 
-    },<br/>
+    },
     sobrenome: {
         type: Sequelize.STRING(30)
     },
     idade:{
         type: Sequelize.INTEGER(2)
-    },<br/>
+    },
     email: {
         type: Sequelize.STRING(50)
-    },<br/>
+    },
     senha: {
        type: Sequelize.STRING(30)
     }
