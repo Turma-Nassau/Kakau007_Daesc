@@ -6,11 +6,11 @@
 * Criar um site onde seja póssivel comunicar a empresa de água da cidade (Daesc), que em determinada região ficou sem água.
 
 ### Funcionalidades 
-* Melhorar a comunicação com um orgão público da cidade.
-* Fazer simulações para uma quitação de dívida.
+* Melhorar a comunicação com um órgão público da cidade.
+* Fazer simulações para quitar dívidas.
 
 
-## Tecnologias utilizadas 
+### Tecnologias utilizadas 
 <table> 
 <tr>
 <td>Node.JS </td>
