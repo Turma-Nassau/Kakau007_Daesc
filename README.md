@@ -7,7 +7,7 @@
 
 ### Funcionalidades 
 * Melhorar a comunicação com um orgão público da cidade.
-* Fazer simulações para simulação uma quitação de dívida.
+* Fazer simulações para uma quitação de dívida.
 
 
 ## Tecnologias utilizadas 
