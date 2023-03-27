@@ -32,23 +32,65 @@
 
  ### Estrutura de Dados
  
- * Possibilidade de fazer login e criar um novo usuário 
+ * Fazer login e criar um novo usuário 
  ~~~~MySql
-     const Usuario = sequelize.define('usuarios',{ 
-    nome: { 
-        type: Sequelize.STRING(30) 
+     const Usuario = bd.sequelize.define('usuarios', {
+
+    nome: {
+        type: bd.Sequelize.STRING(30)
     },
+
     sobrenome: {
-        type: Sequelize.STRING(30)
+        type: bd.Sequelize.STRING(30)
     },
-    idade:{
-        type: Sequelize.INTEGER(2)
-    },
+
     email: {
-        type: Sequelize.STRING(50)
+        type: bd.Sequelize.STRING(50)
     },
+
     senha: {
-       type: Sequelize.STRING(30)
+        type: bd.Sequelize.STRING(30)
+    }
+    
+});
+~~~~
+
+* Formulário para notificar que ficou sem água
+~~~~MySql
+const Formulario = bd.sequelize.define('semAgua' , {
+
+    nomeRua: {
+        type: bd.Sequelize.STRING(50)
+    },
+
+    nomeBairro: {
+        type: bd.Sequelize.STRING(40)
+    },
+
+    data: {
+        type: bd.Sequelize.DATE
+    },
+    
+    hora: {
+        type: bd.Sequelize.TIME
+    }
+});
+~~~~
+
+* Simulação para quitar um talão
+~~~~MySql
+const Simulador = bd.sequelize.define('simulador' , {
+
+    valorTalao: {
+        type: bd.Sequelize.INTEGER
+    },
+
+    valorEntrada: {
+        type: bd.Sequelize.INTEGER
+    },
+
+    parcelamento: {
+        type: bd.Sequelize.INTEGER
     }
 });
 ~~~~
