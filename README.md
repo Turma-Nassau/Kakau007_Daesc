@@ -65,15 +65,8 @@ const Formulario = bd.sequelize.define('semAgua' , {
 
     nomeBairro: {
         type: bd.Sequelize.STRING(40)
-    },
-
-    data: {
-        type: bd.Sequelize.DATE
-    },
-    
-    hora: {
-        type: bd.Sequelize.TIME
     }
+
 });
 ~~~~
 
