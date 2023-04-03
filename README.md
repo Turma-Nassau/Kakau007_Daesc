@@ -14,13 +14,15 @@
 <table> 
 <tr>
 <td>Node.JS </td>
-<td> MySql </td>
+<td> MongoDB </td>
 <td>javaScript </td>
+<td>Bootstrap</td>
 </tr>
 <tr>
 <td>v18.15.0</td>
-<td>v8.0.21</td>
+<td>v6.0</td>
 <td>ECMAScript 2022</td>
+<td>V5.3</td>
 </tr>
 
 </table>
@@ -32,62 +34,71 @@
 
  ### Estrutura de Dados
  
- * Fazer login e criar um novo usuário 
- ~~~~MySql
-     const Usuario = bd.sequelize.define('usuarios', {
+ * criar um novo usuário 
+ ~~~~MongoDB
+     const UsuarioSchema = mongoose.Schema({
 
-    nome: {
-        type: bd.Sequelize.STRING(30)
-    },
-
-    sobrenome: {
-        type: bd.Sequelize.STRING(30)
-    },
-
-    email: {
-        type: bd.Sequelize.STRING(50)
-    },
-
-    senha: {
-        type: bd.Sequelize.STRING(30)
-    }
-    
-});
+        nome: {
+            type: String,
+            require: true
+        },
+        sobrenome: {
+            type: String,
+            require: true
+        },
+        email: {
+            type: String,
+            require: true
+        },
+        idade: {
+            type: Number,
+            require: true
+        },
+        senha: {
+            type: String,
+            require: true
+        }
+    })
 ~~~~
 
 * Formulário para notificar que ficou sem água
-~~~~MySql
-const Formulario = bd.sequelize.define('semAgua' , {
+~~~~MongoDB
+const ReclamacaoSchema = new mongoose.Schema({
 
-    nomeRua: {
-        type: bd.Sequelize.STRING(50)
+    rua: {
+        type: String,
+        require: true
     },
-
-    nomeBairro: {
-        type: bd.Sequelize.STRING(40)
+    bairro: {
+        type: String,
+        require: true
     },
-    
     descricao: {
-       type: bd.Sequelize.TEXT
+        type: String,
+        require: true
+    },
+    data: {
+        type: Date,
+        default: Date.now()
     }
-
-});
+})
 ~~~~
 
 * Simulação para quitar um talão
-~~~~MySql
-const Simulador = bd.sequelize.define('simulador' , {
+~~~~MongoDB
+const ServicoSchema = new mongoose.Schema({
 
-    valorTalao: {
-        type: bd.Sequelize.INTEGER
+    boleto: {
+        type: Number,
+        require: true
     },
-
-    valorEntrada: {
-        type: bd.Sequelize.INTEGER
+    entrada: {
+        type: Number,
+        require: true
     },
-
     parcelamento: {
-        type: bd.Sequelize.INTEGER
+        type: Number,
+        require: true
     }
-});
+})
 ~~~~
