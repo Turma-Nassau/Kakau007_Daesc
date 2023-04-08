@@ -41,13 +41,13 @@
 
 </tr>
 <tr>
-<td>^4.18.2</td>
-<td>^7.0.4</td>
-<td>^1.17.3</td>
-<td>^0.1.1</td>
-<td>^1.20.2</td>
-<td>^7.0.3</td>
-<td>^4.6.2</td>
+<td>4.18.2</td>
+<td>7.0.4</td>
+<td>1.17.3</td>
+<td>0.1.1</td>
+<td>1.20.2</td>
+<td>7.0.3</td>
+<td>4.6.2</td>
 <td>1.0.0</td>
 </tr>
 
@@ -59,33 +59,6 @@
 
 
  ### Estrutura de Dados
- 
- * criar um novo usuário 
- ~~~~MongoDB
-     const UsuarioSchema = mongoose.Schema({
-
-        nome: {
-            type: String,
-            require: true
-        },
-        sobrenome: {
-            type: String,
-            require: true
-        },
-        email: {
-            type: String,
-            require: true
-        },
-        idade: {
-            type: Number,
-            require: true
-        },
-        senha: {
-            type: String,
-            require: true
-        }
-    })
-~~~~
 
 * Formulário para notificar que ficou sem água
 ~~~~MongoDB
