@@ -27,7 +27,7 @@
 
 </table>
 
-#### Módulos Utilizados no Node.JS
+#### Módulos utilizados no node.js
 <table> 
 <tr>
 <td>Express</td>
