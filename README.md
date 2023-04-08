@@ -27,6 +27,32 @@
 
 </table>
 
+#### Módulos Utilizados no Node.JS
+<table> 
+<tr>
+<td>Express</td>
+<td>Express-Handlebars</td>
+<td>Express-session</td>
+<td>Connect-flash</td>
+<td>Body-Parser</td>
+<td>Mongoose</td>
+<td>Swagger</td>
+<td>Path</td>
+
+</tr>
+<tr>
+<td>^4.18.2</td>
+<td>^7.0.4</td>
+<td>^1.17.3</td>
+<td>^0.1.1</td>
+<td>^1.20.2</td>
+<td>^7.0.3</td>
+<td>^4.6.2</td>
+<td>1.0.0</td>
+</tr>
+
+</table>
+
 
 ### Modelo em alta fidelidade
 * <a href = "https://www.figma.com/file/Aeboe8zfAXq3nheiBtrRKn/StoryBoard%2F%2FKau%C3%A3?node-id=0%3A1" > Figma </a> 
