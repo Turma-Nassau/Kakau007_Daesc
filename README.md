@@ -75,11 +75,7 @@ const ReclamacaoSchema = new mongoose.Schema({
     descricao: {
         type: String,
         require: true
-    },
-    data: {
-        type: Date,
-        default: Date.now()
-    }
+   
 })
 ~~~~
 
