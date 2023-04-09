@@ -14,7 +14,7 @@
 <table> 
 <tr>
 <td>Node.JS </td>
-<td> MongoDB </td>
+<td> MySql </td>
 <td>javaScript </td>
 <td>Bootstrap</td>
 </tr>
@@ -35,7 +35,7 @@
 <td>Express-session</td>
 <td>Connect-flash</td>
 <td>Body-Parser</td>
-<td>Mongoose</td>
+<td>MySql2</td>
 <td>Swagger</td>
 <td>Path</td>
 
