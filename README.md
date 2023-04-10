@@ -60,8 +60,30 @@
 
  ### Estrutura de Dados
 
+* Administrador
+~~~~MySql
+const Administrador = MySql.sequelize.define('administrador', {
+
+    nome: {
+        type: MySql.Sequelize.STRING
+    },
+
+    sobrenome: {
+        type: MySql.Sequelize.STRING
+    },
+
+    email: {
+        type: MySql.Sequelize.STRING
+    },
+
+    senha: {
+        type: MySql.Sequelize.STRING
+    }
+})
+~~~~
+
 * Formulário para notificar que ficou sem água
-~~~~MongoDB
+~~~~MySql
 const ReclamacaoSchema = new mongoose.Schema({
 
     rua: {
