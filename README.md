@@ -65,57 +65,55 @@
 const Administrador = MySql.sequelize.define('administrador', {
 
     nome: {
-        type: MySql.Sequelize.STRING
+        type: MySql.Sequelize.STRING(30)
     },
 
     sobrenome: {
-        type: MySql.Sequelize.STRING
+        type: MySql.Sequelize.STRING(40)
     },
 
     email: {
-        type: MySql.Sequelize.STRING
+        type: MySql.Sequelize.STRING(50)
     },
 
     senha: {
-        type: MySql.Sequelize.STRING
+        type: MySql.Sequelize.STRING(30)
     }
-})
+} , { freezeTableName: true });
 ~~~~
 
 * Formulário para notificar que ficou sem água
 ~~~~MySql
-const ReclamacaoSchema = new mongoose.Schema({
+const Reclamacao = MySql.sequelize.define('reclamacao', {
 
     rua: {
-        type: String,
-        require: true
+        type: MySql.Sequelize.STRING(50)
     },
+    
     bairro: {
-        type: String,
-        require: true
+        type: MySql.Sequelize.STRING(50)
     },
+    
     descricao: {
-        type: String,
-        require: true
+        type: MySql.Sequelize.STRING(150)
    
-})
+} , { freezeTableName: true });
 ~~~~
 
 * Simulação para quitar um talão
-~~~~MongoDB
-const ServicoSchema = new mongoose.Schema({
+~~~~MySql
+const Servico = MySql.sequelize.define('servico', {
 
     boleto: {
-        type: Number,
-        require: true
+        type: MySql.Sequelize.INTEGER
     },
+    
     entrada: {
-        type: Number,
-        require: true
+        type: MySql.Sequelize.INTEGER
     },
+    
     parcelamento: {
-        type: Number,
-        require: true
+        type: MySql.Sequelize.INTEGER
     }
-})
+} , { freezeTableName: true });
 ~~~~
