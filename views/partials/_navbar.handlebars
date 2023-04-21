@@ -22,9 +22,22 @@
         <li class="nav-item">
           <a class="nav-link" href="/user/empresa">Informações da empresa</a>
         </li>
+
+        {{#if user}}
+
+        <li>
+          <a class="nav-link" href="/admin">Administração</a>
+        </li>
+        <li>
+          <a class="nav-link" href="/user/logout">Sair</a>
+        </li>
+        {{else}}
         <li class="nav-item">
           <a class="nav-link" href="/user/restrito">Administrativo</a>
         </li>
+
+        {{/if}}
+
       </ul>
 
     </div>

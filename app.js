@@ -11,6 +11,7 @@ const flash = require('connect-flash')
 const moment = require("moment")
 const passport = require('passport')
 require("./config/auth")(passport)
+const { eAdmin } = require('./helpers/eAdmin')
 
 // Configurações
 
@@ -75,7 +76,7 @@ app.get('/', (req, res) => {
 
 // Grupos com prefixos
 // admin
-app.use('/admin', admin)
+app.use('/admin', eAdmin, admin)
 // user
 app.use('/user', user)
 

@@ -37,18 +37,15 @@ module.exports = function (passport) {
         done(null, admin.id);
     });
 
-    passport.deserializeUser((id, done) => {
-        Admin.findOne({ where: { id: id } })
-            .then((admin) => {
-                if (!admin) {
-                    return done(null, admin);
-                } else {
-                    done(null, false, { mensagem: "Usuário não encontrado" });
-                }
-            })
-            .catch((err) => {
-                return done(err);
-            });
-    });
+    passport.deserializeUser(function (id, done) {
+        Admin.findOne({ where: { id: id } }).then((admin) => {
+            done(null, admin);
+        }).catch((err) => {
+            done(err, null);
+        });
+    })
+
+
+
 };
 

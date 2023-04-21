@@ -13,7 +13,7 @@ const bcrypt = require("bcryptjs")
 //rotas do adminitrador 
 
 // rota principal
-router.get('/',  (req, res) => {
+router.get('/',   (req, res) => {
   res.render("./admin/index")
 })
 
@@ -40,7 +40,7 @@ router.get('/situacaoSimulacao', (req, res) => {
 })
 
 // rota para criar um novo administrador
-router.get('/criar',  (req, res) => {
+router.get('/criar', (req, res) => {
   res.render("./admin/criar")
 })
 
