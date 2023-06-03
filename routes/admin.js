@@ -12,28 +12,32 @@ const bcrypt = require("bcryptjs")
 
 //rotas do adminitrador 
 
+
 // rota principal
-router.get('/',   (req, res) => {
+router.get('/', (req, res) => {
   res.render("./admin/index")
+  
 })
 
 // rota com todas as reclamações 
-router.get('/situacaoReclamacao',  (req, res) => {
-  Reclamacao.findAll({ order: [['id', 'Desc']] }).then((reclamacao) => {
-    res.render("./admin/situacaoRecla", { reclamacao: reclamacao })
+router.get('/situacaoReclamacao', (req, res) => {
+  Reclamacao.findAll({ order: [['id', 'DESC']] })
+    .then((reclamacoes) => {
+      res.json(reclamacoes);
+    })
+    .catch((err) => {
+      console.error(err);
+      res.status(500).json({ error: 'Houve um erro ao listar as reclamações' });
+    });
+});
 
-  }).catch((err) => {
-    req.flash("erro_msg ", "Houve um erro ao listar as reclamações")
-    res.redirect('/admin')
-  })
-
-})
 
 // rota com todas as simulações
 router.get('/situacaoSimulacao', (req, res) => {
   Servico.findAll({ order: [['id', 'desc']] }).then((servicos) => {
-    res.render("./admin/situacaoSimu", { servicos: servicos })
+    res.json(servicos);
   }).catch((err) => {
+    console.error(err);
     req.flash("erro_msg ", "Houve um erro ao criar uma simulação")
   })
 
@@ -110,10 +114,8 @@ router.post('/criar/novo', (req, res) => {
           nome: req.body.nome,
           sobrenome: req.body.sobrenome,
           email: req.body.email,
-          senha: hash,
+          senha: hash
         };
-        
-        console.log(hash)
 
         Admin.create(novoAdmin)
           .then(() => {
